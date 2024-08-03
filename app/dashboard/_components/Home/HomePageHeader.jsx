@@ -57,7 +57,7 @@ function HomePageHeader() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <Link href="/sign-up?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard">
+              <Link href="/dashboard">
                 <Button>Signup</Button>
               </Link>
             </div>
