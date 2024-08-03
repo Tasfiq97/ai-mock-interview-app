@@ -21,7 +21,7 @@ function Banner() {
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <Link
-              href={'/sign-up?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard'}
+              href={'/dashboard'}
               className="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
             >
               Get Started
