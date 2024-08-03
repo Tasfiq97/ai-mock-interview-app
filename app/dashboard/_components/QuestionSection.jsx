@@ -21,8 +21,8 @@ function QuestionSection({ interviewQuestion, activeQuestionId }) {
             interviewQuestion.map((question, id) => (
               <h2
                 key={id}
-                className={`p-2 bg-secondary rounded-full text-xs md:text-sm text-center cursor-pointer ${
-                  activeQuestionId === id && 'text-white bg-blue-600'
+                className={`p-2  rounded-full text-xs md:text-sm text-center cursor-pointer ${
+                  activeQuestionId === id ? ' bg-blue-600 text-white ' : 'bg-secondary'
                 }`}
               >
                 Question # {id + 1}
